@@ -24,7 +24,7 @@
 					</div>
 					{{#if display.quickstart}}
 						<div class="monster-quickstart">
-							<p>Level {{monster.description.level}} {{fmtCapitalise monster.description.role}}<br/> {{fmtCapitalise monster.description.rank}} <span class="solo-only">vs {{monster.description.players}} </span>({{fmtLocaleString monster.challenge.xp}} XP)</p>
+							<p>Уровень {{monster.description.level}} {{fmtCapitalise monster.description.role}}<br/> {{fmtCapitalise monster.description.rank}} <span class="solo-only">vs {{monster.description.players}} </span>({{fmtLocaleString monster.challenge.xp}} XP)</p>
 						</div>
 					{{/if}}
 				</div>
@@ -67,27 +67,27 @@
 			<hr/>
 			<div class="monster-abilities">
 				<div class="monster-ability">
-					<span class="label">Str</span>
+					<span class="label">Сил</span>
 					<span>{{monster.abilities.str.score}} <span class="modifier">({{{fmtModifier monster.abilities.str.modifier}}})</span></span>
 				</div>
 				<div class="monster-ability">
-					<span class="label">Dex</span>
+					<span class="label">Лов</span>
 					<span>{{monster.abilities.dex.score}} <span class="modifier">({{{fmtModifier monster.abilities.dex.modifier}}})</span></span>
 				</div>
 				<div class="monster-ability">
-					<span class="label">Con</span>
+					<span class="label">Тел</span>
 					<span>{{monster.abilities.con.score}} <span class="modifier">({{{fmtModifier monster.abilities.con.modifier}}})</span></span>
 				</div>
 				<div class="monster-ability">
-					<span class="label">Int</span>
+					<span class="label">Инт</span>
 					<span>{{monster.abilities.int.score}} <span class="modifier">({{{fmtModifier monster.abilities.int.modifier}}})</span></span>
 				</div>
 				<div class="monster-ability">
-					<span class="label">Wis</span>
+					<span class="label">Муд</span>
 					<span>{{monster.abilities.wis.score}} <span class="modifier">({{{fmtModifier monster.abilities.wis.modifier}}})</span></span>
 				</div>
 				<div class="monster-ability">
-					<span class="label">Cha</span>
+					<span class="label">Хар</span>
 					<span>{{monster.abilities.cha.score}} <span class="modifier">({{{fmtModifier monster.abilities.cha.modifier}}})</span></span>
 				</div>
 			</div>
@@ -305,7 +305,7 @@
 <div>
 	{{#if display.downloadPng}}
 		<button type="button" class="btn btn-sm btn-primary btn-png">
-			<span class="fas fa-camera"></span> Сохранить as PNG
+			<span class="fas fa-camera"></span> Сохранить rfr PNG
 		</button>
 	{{/if}}
 	<button type="button" class="btn btn-sm btn-primary btn-columns icon-only icon-border">
